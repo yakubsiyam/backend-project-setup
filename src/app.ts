@@ -19,7 +19,8 @@ app.use(express.urlencoded({ extended: true }));
 // });
 
 app.get('/', async (req: Request, res: Response, next: NextFunction) => {
-  Promise.reject(new Error('Unhandled Promise Rejection'));
+  // Promise.reject(new Error('Unhandled Promise Rejection'));
+  // console.log(x);
 });
 
 // global error handler
